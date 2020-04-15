@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "mostlydrugs",
+  "version": "${version}",
+  "name": "MostlyDrugs",
+  "description": "A mod which adds various drugs and other things.",
+  "authors": [
+    "drew6017, Mick756"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/MCtheWub/MostlyDrugs.git"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/mostlydrugs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.thewub.MostlyDrugs"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "mostlydrugs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
